@@ -17,6 +17,7 @@ function MainPage() {
           <div className="about-me-text-block">
             <h1 className="about-me-h1">{text['about-me']}</h1>
             <p className='about-me-p'>{text['about-me-p']}</p>
+            <div className="contacts"><a href="https://www.linkedin.com/in/maksim-shirokovskii-826a27279/" className="linked">LinkedIn</a></div>
           </div>
         </div>
       </div>

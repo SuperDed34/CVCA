@@ -46,6 +46,7 @@
   position: relative;
   list-style-type: none;
   font-style: normal;
+  padding: 0.5em;
   a{
     color: #000000;
     text-decoration: none;
