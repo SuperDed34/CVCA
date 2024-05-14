@@ -9,13 +9,14 @@ import Modal from './modal/modal'
 
 function App() {
   return (
-    <>
+    <><div className="bg">
       <div className='main'>
         <header className='header'>
           <Header></Header>
         </header>
         <hr></hr>
         <MainPage></MainPage>
+      </div>
       </div>
     </>
   )
