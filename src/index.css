@@ -7,21 +7,20 @@
 
 body{
   margin: 0;
-}
-
-#root{
-  margin: 0;
-  width: 100%;
   height: 100vh;
 }
 
-.bg{
+#root{
   width: 100%;
   height: fit-content;
   background: linear-gradient(41deg,rgb(1, 255, 85), rgb(0, 0, 0),rgb(0, 0, 0), rgb(1, 255, 85),  rgb(0, 0, 0),rgb(0, 0, 0), rgb(1, 255, 85),  rgb(0, 0, 0),rgb(0, 0, 0), rgb(1, 255, 85),  rgb(0, 0, 0),rgb(0, 0, 0), rgb(1, 255, 85), rgb(0, 0, 0),rgb(0, 0, 0),rgb(1, 255, 85));
   background-size: 250% 250%;
   background-clip: content-box;
   animation: gradientAnimation 20s infinite alternate ease-in-out;
+}
+
+.bg{
+  padding: 1em;
 }
 
 @keyframes gradientAnimation {

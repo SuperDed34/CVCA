@@ -1,6 +1,6 @@
 {
   "about-me": "Hello, my name is Maks",
-  "about-me-p": "A highly experienced project manager, junior web developer and software engineer. I have over two years’ cab experience with exemplary passenger pick-up and drop-off records, demonstrating high customer service skills, thereby creating a positive customer experience. After this, I went on to become an innovative and highly dependable manager. I have over 9 years of experience in Customer Experience and contact center management, proving not only extensive knowledge in this field but also flexibility, adaptability, and the capability to work in different positions within the working environment. I am ambitious, a good team leader and player, with superb interpersonal and transferable skills. I am always eager to add to my skills and look forward to sharing my knowledge in an exciting new opportunity. Technologies are my passion. I don't need rest while I'm working with them. Now I continue to study machine learning and artificial intelligence with great interest.",
+  "about-me-p": "A highly experienced project manager, junior web developer and software engineer. I have over two years’ cab experience with exemplary passenger pick-up and drop-off records, demonstrating high customer service skills, thereby creating a positive customer experience. After this, I went on to become an innovative and highly dependable manager. I have over 9 years of experience in Customer Experience and contact center management, proving not only extensive knowledge in this field but also flexibility, adaptability, and the capability to work in different positions within the working environment. I am ambitious, a good team leader and player, with superb interpersonal and transferable skills. I am always eager to add to my skills and look forward to sharing my knowledge in an exciting new opportunity. Technologies are my passion. I don't need rest while I'm working with them. Now I continue to study machine learning and artificial intelligence with great interest. My contacts is below:",
   "skills": "Skills",
   "skillsColumnLeft": [
     "Excellent MS Office skills: Word, Excel & PowerPoint",
@@ -106,5 +106,44 @@
       { "training": "Project Management", "company": "Neovox", "period": "2020" },
       { "training": "Problem solving", "company": "Apex berg", "period": "2017" },
       { "training": "Group Leadership and supervising", "company": "Open communications","period": "2016" }
-  ]
+  ],
+  "work": {
+    "h1": "Here you can find examples of my work: ",
+    "examples": [
+       {
+        "img": "../../public/cv.jpg",
+        "heading": "This CV",
+        "description": "This CV page is exaple my work in react and SPA approach. This page still on work. Main Idea - everybody can take code of this page and trough manipulate JSON file and assets create their own",
+        "technologies": {
+          "HTML": "10%",
+          "CSS": "10%",
+          "React": "75%",
+          "JSON": "5%"
+        },
+        "link": "/"
+      },
+      {
+        "img": "../../public/doctor.jpg",
+        "heading": "Design for Clinic",
+        "description": "This template in HTML and little bit JS showing my design posibilities. ",
+        "technologies": {
+          "HTML": "80%",
+          "CSS": "10%",
+          "JS": "10%"
+        },
+        "link": "/work/doctors"
+      },
+      {
+        "img": "../../public/doctor.jpg",
+        "heading": "Coming soon",
+        "description": "Because e-CV stioo on working new project will be added soon",
+        "technologies": {
+          "HTML": "80%",
+          "CSS": "10%",
+          "JS": "10%"
+        },
+        "link": "/"
+      }
+    ]
+  }
 }
