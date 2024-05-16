@@ -1,0 +1,23 @@
+.work-ex{
+  display: flex;
+  flex-direction: column;
+  .h1-work{
+    text-align: center;
+  }
+}
+
+.examples-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .examples-wrapper{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+}
