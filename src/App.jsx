@@ -56,7 +56,7 @@ function App() {
           </header>
           <hr></hr>
           <Routes>
-            <Route exact path='/CVAC/dist' element={<MainPage text={text} />} /> 
+            <Route exact path='/CVCA/dist' element={<MainPage text={text} />} /> 
             <Route path='/' element={<MainPage text={text}/>} />
             <Route path='/work' element={<Work text={text} />} />
             <Route path='/work/doctors' element={<NativeProject path='../../src/work/doctors/index.html'/>}/>
